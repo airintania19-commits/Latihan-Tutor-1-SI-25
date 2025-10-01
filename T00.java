@@ -27,14 +27,14 @@ public class JavaApplication {
             if (b > a) {
                 System.out.println("Bilangan kedua lebih besar");
             } else {
-                System.out.println("keduanya sama besar");
+                System.out.println("keduanya bilangan sama besar");
             }
         }
         if (a % 2 == 0 && b % 2 == 0) {
-            System.out.println("keduanya genap hasil penjumlahan=" + a + b);
+            System.out.println("hasil penjumlahan=" + a + b);
         } else {
             if (a % 2 != 0 && b % 2 != 0) {
-                System.out.println("keduanya ganjil hasil perkalian=" + a * b);
+                System.out.println("hasil perkalian=" + a * b);
             } else {
                 System.out.println("berbeda jenis");
             }
