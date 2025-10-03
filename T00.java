@@ -3,7 +3,7 @@
 import java.util.*;
 import java.lang.Math;
 
-public class JavaApplication {
+public class T00 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -12,14 +12,14 @@ public class JavaApplication {
         a = Integer.parseInt(input.nextLine());
         b = Integer.parseInt(input.nextLine());
         if (a % 2 == 0) {
-            System.out.println("bilangan pertama:genap");
+            System.out.println("Bilangan pertama:genap");
         } else {
-            System.out.println("bilangan pertama:ganjil");
+            System.out.println("Bilangan pertama:ganjil");
         }
         if (b % 2 == 0) {
-            System.out.println("bilangan kedua:genap");
+            System.out.println("Bilangan kedua:genap");
         } else {
-            System.out.println("bilangan kedua:ganjil");
+            System.out.println("Bilangan kedua:ganjil");
         }
         if (a > b) {
             System.out.println("Bilangan pertama lebih besar");
@@ -31,13 +31,14 @@ public class JavaApplication {
             }
         }
         if (a % 2 == 0 && b % 2 == 0) {
-            System.out.println("hasil penjumlahan=" + a + b);
+            System.out.println("Hasil penjumlahan=" + a + b);
         } else {
             if (a % 2 != 0 && b % 2 != 0) {
-                System.out.println("hasil perkalian=" + a * b);
+                System.out.println("Hasil perkalian=" + a * b);
             } else {
-                System.out.println("berbeda jenis");
+                System.out.println("Berbeda jenis");
             }
         }
     }
 }
+
